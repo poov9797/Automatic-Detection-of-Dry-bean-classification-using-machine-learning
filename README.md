@@ -8,10 +8,10 @@ Dry beans are a vital pulse crop globally, and their cultivation faces challenge
 ## Dataset
 The dataset consists of 13,611 samples, each with 16 geometric attributes representing different dry bean varieties. The seven varieties considered are Dermason, Barbunya, Bombay, Seker, Cali, Horoz, and Sira. Geometric attributes include area, perimeter, aspect ratio, solidity, and more.
 
-## Machine Learning Techniques
 ## Data Preprocessing
 Data preprocessing involves cleaning and converting raw data into a format suitable for machine learning algorithms. Categorical targets are converted into numerical form, and the data is split into features and targets. A crucial step is splitting the data into training and testing sets for model evaluation.
 
+## Machine Learning Techniques
 ## XGBoost Classifier
 The XGBoost classifier is chosen for its strong performance and scalability. The model is developed and trained using a dataset with tuned hyperparameters. The model achieves accuracy ranging from 86.84% to 100.00%, showcasing its effectiveness in dry bean classification.
 
